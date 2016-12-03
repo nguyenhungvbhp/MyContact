@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtAddName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên"
+        android:textColor="@color/colorName"
+        android:textSize="20sp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtAddNumberPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:textColor="@color/colorName"
+        android:textSize="20sp">
+
+        <requestFocus />
+    </EditText>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="@dimen/leftSize30dp"
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_ground"
+            android:text="Thêm"
+            android:textColor="@color/colorName"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_ground"
+            android:text="Thoát"
+            android:textColor="@color/colorName"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>

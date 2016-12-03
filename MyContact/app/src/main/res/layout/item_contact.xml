@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="@dimen/leftSize30dp"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mạnh Hùng"
+        android:textColor="@color/colorName"
+        android:textSize="@dimen/name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/leftSize30dp"
+        android:id="@+id/tvNumberPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="0988996989"
+        android:textColor="@color/colorName"
+        android:textSize="@dimen/numberPhone"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/leftSize30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/call" />
+
+        <ImageView
+            android:id="@+id/imgMessage"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chat" />
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+</LinearLayout>
